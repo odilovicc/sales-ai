@@ -1,0 +1,34 @@
+{
+    "name": "telegram-userbot",
+    "version": "1.0.0",
+    "description": "Production-ready Telegram userbot with LLM lead filtering",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "start": "bun run index.ts",
+        "dev": "bun run --watch index.ts",
+        "test:ollama": "bun run test-ollama.ts",
+        "test:google": "bun run test-google-sheets.ts",
+        "sync:google": "bun run sync-google-sheets.ts"
+    },
+    "keywords": [
+        "telegram",
+        "userbot",
+        "gramjs",
+        "llm",
+        "lead-generation"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "exceljs": "^4.4.0",
+        "googleapis": "^166.0.0",
+        "input": "^1.0.1",
+        "ollama": "^0.6.3",
+        "telegram": "^2.25.14"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "bun-types": "latest"
+    }
+}

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+bun.lockb
+bun.lock
+
+# Environment variables
+.env
+.env.local
+
+# Google Sheets credentials
+google-credentials.json
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Excel output
+leads.xlsx
+*.xlsx
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
